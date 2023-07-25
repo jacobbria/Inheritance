@@ -37,7 +37,9 @@ Vehicle getVehicle() {  // get vehicle information for  user
     
     string inputManufactor;
     int inputYearBuilt;
-
+    
+    
+    cout << "Vehicle" << endl;
     
     cout << "Enter Vehicle's manufacturer: ";
     getline(cin, inputManufactor);
@@ -64,6 +66,7 @@ Car getCar() {
     string inputManufactor;
     int inputYearBuilt;
 
+    cout << "Car" << endl;
 
     cout << "Enter Vehicle's manufacturer: ";
     getline(cin, inputManufactor);
@@ -92,6 +95,7 @@ Truck getTruck() {
     string inputManufactor;
     int inputYearBuilt;
 
+    cout << "Truck" << endl;
 
     cout << "Enter Vehicle's manufacturer: ";
     getline(cin, inputManufactor);

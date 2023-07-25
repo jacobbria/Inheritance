@@ -10,29 +10,14 @@ class Truck : public Vehicle {
 private:
 	double towingCapacity;
 public: 
-	Truck() : Vehicle() {	// default constructor
-		towingCapacity = 0.0;
-	}
+	Truck();
 	
-	Truck(double tC, const string& m, int yB) : Vehicle(m, yB) {	// input constructor
-		towingCapacity = tC;
+	Truck(double tC, const string& m, int yB);
 
-	}
+	void setTruck(double tC);
+	
+	double getTruck();
 
-	void setTruck(double tC) {
-		towingCapacity = tC;
-	}
-
-	double getTruck() {
-		return towingCapacity;
-	}
-
-	void displayInfo() const override {
-		cout << "Manufacturer: " << manufacturer << "." << endl;
-		cout << "Built: " << yearBuilt << ". " << endl;
-		cout << "Towing capacity: " << towingCapacity << ". " << endl;
-
-	}
-
+	void displayInfo() const override;
 };
 #endif
