@@ -13,39 +13,19 @@ protected:
 
 public:
 
-	Vehicle() {	// default constructor
-		manufacturer = "";
-		yearBuilt = 0;
-	}
-	
-	Vehicle(const string& m, int yB) {	// constructor to be used with children classes
-		manufacturer = m;
-		yearBuilt = yB;
-	}
-
+	Vehicle();
+	Vehicle(const string& m, int yB);
 	virtual ~Vehicle() {}; // destructor
 
-	void setManufacturer(const string& m) {
-		manufacturer = m;
+	void setManufacturer(const string& m);
 
-	}
+	void setYearBuilt(int yB);
 
-	void setYearBuilt(int yB) {
-		yearBuilt = yB;
-	}
+	string getManufacturer();
 
-	string getManufacturer() {
-		return manufacturer;
-	}
+	int getYearBuilt();
 
-	int getYearBuilt() {
-		return yearBuilt;
-	}
-
-	virtual void displayInfo() const {	// output information
-		cout << "Manufacturer: " << manufacturer << "." << endl;
-		cout << "Built: " << yearBuilt << ". " << endl;
-	}
+	virtual void displayInfo() const;
 
 };
 
