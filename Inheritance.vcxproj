@@ -130,8 +130,8 @@
     <ClCompile Include="Inheritance.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
-    <ClInclude Include="Vehicle.h" />
+    <ClInclude Include="CAR.h" />
+    <ClInclude Include="VEHICLE.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

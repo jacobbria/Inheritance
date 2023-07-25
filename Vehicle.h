@@ -1,6 +1,6 @@
 #pragma once
-#ifndef Vehicle_H
-#define Vehicle_H
+#ifndef VEHICLE_H
+#define VEHICLE_H
 #include <string>
 #include <iostream>
 using namespace std;
