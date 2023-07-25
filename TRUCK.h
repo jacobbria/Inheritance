@@ -1,6 +1,6 @@
 #pragma once
-#ifndef TRUCK.h
-#define TRUCK.h
+#ifndef TRUCK_h
+#define TRUCK_h
 #include "Vehicle.h"
 #include <string>
 #include <iostream>
